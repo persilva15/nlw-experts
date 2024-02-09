@@ -1,95 +1,96 @@
 const perguntas = [
     {
-      pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
+      pergunta: "Qual foi o clube brasileiro que venceu a Copa Libertadores da América em 1992?",
       respostas: [
-        "var myVar;",
-        "variable myVar;",
-        "v myVar;",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual método é usado para imprimir algo no console em JavaScript?",
-      respostas: [
-        "console.log()",
-        "print()",
-        "log.console()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o operador de igualdade estrita em JavaScript?",
-      respostas: [
-        "==",
-        "===",
-        "=",
+        "Grêmio",
+        "São Paulo",
+        "Vasco da Gama",
       ],
       correta: 1
     },
     {
-      pergunta: "O que o método 'querySelector()' faz em JavaScript?",
+      pergunta: "Qual jogador brasileiro foi artilheiro da Copa do Mundo FIFA de 1994?",
       respostas: [
-        "Seleciona um elemento por sua classe.",
-        "Seleciona um elemento por seu ID.",
-        "Seleciona um elemento por sua tag.",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como você comentaria uma linha de código em JavaScript?",
-      respostas: [
-        "// Isso é um comentário",
-        "'Isso é um comentário",
-        "<!--Isso é um comentário-->",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a palavra-chave usada para declarar uma função em JavaScript?",
-      respostas: [
-        "function",
-        "func",
-        "method",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual desses é um tipo de dado primitivo em JavaScript?",
-      respostas: [
-        "Array",
-        "Object",
-        "String",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que o método 'push()' faz em um array em JavaScript?",
-      respostas: [
-        "Remove o último elemento do array.",
-        "Adiciona um elemento ao final do array.",
-        "Ordena os elementos do array.",
+        "Bebeto",
+        "Romário",
+        "Ronaldo",
       ],
       correta: 1
     },
     {
-      pergunta: "Qual é a função do operador '&&' em JavaScript?",
+      pergunta: "Qual clube venceu o Campeonato Brasileiro de 1998 de forma invicta?",
       respostas: [
-        "Operador de negação lógica",
-        "Operador de adição",
-        "Operador lógico 'E'",
+        "Palmeiras",
+        "Corinthians",
+        "Santos",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual jogador brasileiro foi eleito o melhor do mundo pela FIFA em 1994?",
+      respostas: [
+        "Romário",
+        "Ronaldo",
+        "Bebeto",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Em que ano o Brasil conquistou a Copa do Mundo FIFA pela quarta vez?",
+      respostas: [
+        "1994",
+        "1998",
+        "1990",
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual foi o primeiro clube brasileiro a conquistar a Copa do Brasil?",
+      respostas: [
+        "Grêmio",
+        "Cruzeiro",
+        "Flamengo",
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual jogador brasileiro ficou conhecido como 'Rei do Drible' nos anos 90?",
+      respostas: [
+        "Romário",
+        "Rivaldo",
+        "Ronaldinho Gaúcho",
       ],
       correta: 2
     },
     {
-      pergunta: "O que o método 'charAt()' faz em JavaScript?",
+      pergunta: "Qual foi o único clube brasileiro a vencer a Supercopa Libertadores em 1993?",
       respostas: [
-        "Retorna o caractere em uma posição específica em uma string.",
-        "Substitui um caractere em uma string.",
-        "Remove um caractere de uma string.",
+        "Cruzeiro",
+        "São Paulo",
+        "Grêmio",
       ],
       correta: 0
+    },
+    {
+      pergunta: "Em que ano o São Paulo conquistou seu primeiro título da Copa Libertadores?",
+      respostas: [
+        "1992",
+        "1993",
+        "1994",
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual foi o único clube brasileiro a vencer a Copa Conmebol em 1994?",
+      respostas: [
+        "Grêmio",
+        "Atlético Mineiro",
+        "Internacional",
+      ],
+      correta: 1
     },
   ];
+  
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
