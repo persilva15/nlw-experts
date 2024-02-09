@@ -24,7 +24,7 @@ const perguntas = [
         "Corinthians",
         "Santos",
       ],
-      correta: 0
+      correta: 1
     },
     {
       pergunta: "Qual jogador brasileiro foi eleito o melhor do mundo pela FIFA em 1994?",
@@ -42,7 +42,7 @@ const perguntas = [
         "1998",
         "1990",
       ],
-      correta: 1
+      correta: 0
     },
     {
       pergunta: "Qual foi o primeiro clube brasileiro a conquistar a Copa do Brasil?",
@@ -51,7 +51,7 @@ const perguntas = [
         "Cruzeiro",
         "Flamengo",
       ],
-      correta: 1
+      correta: 0
     },
     {
       pergunta: "Qual jogador brasileiro ficou conhecido como 'Rei do Drible' nos anos 90?",
@@ -69,7 +69,7 @@ const perguntas = [
         "São Paulo",
         "Grêmio",
       ],
-      correta: 0
+      correta: 1
     },
     {
       pergunta: "Em que ano o São Paulo conquistou seu primeiro título da Copa Libertadores?",
@@ -78,13 +78,13 @@ const perguntas = [
         "1993",
         "1994",
       ],
-      correta: 1
+      correta: 0
     },
     {
       pergunta: "Qual foi o único clube brasileiro a vencer a Copa Conmebol em 1994?",
       respostas: [
         "Grêmio",
-        "Atlético Mineiro",
+        "São Paulo",
         "Internacional",
       ],
       correta: 1
